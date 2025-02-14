@@ -12,7 +12,7 @@ const About = () => {
 
     useEffect(() => {
         const options = {
-            root: null, // Use the viewport as the root
+            root: null,
             rootMargin: '0px',
             threshold: 0.5,
         };
@@ -83,10 +83,12 @@ const About = () => {
 
                 {/* Description line */}
                 <h1 className="text-1xl font-kodemono text-white text-center">
-                    Hi! I’m Azlan Raban, a software engineer with a strong focus on the MERN stack (MongoDB, Express.js, React, and Node.js). I’m driven by a passion for building dynamic, scalable, and user-centric web applications that solve real-world problems.
+                    Hi! I’m Azlan Raban, a software engineer with a strong focus on the MERN stack (MongoDB, Express.js, React, and Node.js).
+                    I’m driven by a passion for building dynamic, scalable, and user-centric web applications that solve real-world problems.
+                    From designing intuitive front-end interfaces to optimizing back-end performance,
+                    I thrive on turning complex ideas into seamless digital experiences.
                 </h1>
 
-                {/* 3 Empty Boxes */}
                 <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0 mt-8 p-10">
                     <div
                         ref={box1Ref}

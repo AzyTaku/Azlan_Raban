@@ -9,7 +9,7 @@ const Exp = () => {
 
     useEffect(() => {
         const options = {
-            root: null, // Use the viewport as the root
+            root: null,
             rootMargin: '0px',
             threshold: 0.5,
         };
@@ -45,7 +45,6 @@ const Exp = () => {
             observerRight.observe(sectionRightRef.current);
         }
 
-        // Cleanup the observers when component unmounts
         return () => {
             if (sectionLeftRef.current) {
                 observerLeft.unobserve(sectionLeftRef.current);
