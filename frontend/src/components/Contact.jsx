@@ -5,7 +5,7 @@ const Contact = () => {
     return (
         <>
             <div className="relative flex flex-col space-y-4 pt-20">
-                {/* First line */}
+                {/* First line  */}
                 <h1 className="text-4xl font-kodemono text-white">Contact</h1>
 
                 <div className="flex space-x-8">

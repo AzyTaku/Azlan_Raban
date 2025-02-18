@@ -64,13 +64,13 @@ const Exp = () => {
                 {/* Trainee Full Stack Software Engineer */}
                 <div
                     ref={sectionLeftRef}
-                    className={`w-full max-w-[1000px] mx-auto bg-transparent border border-white p-4 rounded-lg pb-10 transition-all duration-1000 ${scrollLeft ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'}`}
+                    className={`w-full max-w-[1000px] mx-auto bg-transparent font-kodemono border border-white p-4 rounded-lg pb-10 transition-all duration-1000 ${scrollLeft ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'}`}
                 >
                     <div className="flex flex-col sm:flex-row justify-between text-center sm:text-left">
                         <h1 className="text-2xl font-kodemono text-white">Trainee Full Stack Software Engineer</h1>
                         <h1 className="text-2xl font-kodemono text-black sm:text-right pb-5 font-semibold">Mandadev</h1>
                     </div>
-                    <ul className="custom-list list-inside space-y-2 text-white">
+                    <ul className="custom-list list-inside space-y-2 text-white font-kodemono">
                         <li className="bg-bgGradient1 border rounded-lg p-3">
                             Collaborated with a German-based company to enhance their CRM system, focusing on backend API optimizations and frontend refinements to improve user experience.
                         </li>
@@ -86,13 +86,13 @@ const Exp = () => {
                 {/* Freelance Full Stack Software Engineer */}
                 <div
                     ref={sectionRightRef}
-                    className={`w-full max-w-[1000px] mx-auto bg-transparent border border-white p-4 rounded-lg transition-all duration-1000 ${scrollRight ? 'translate-x-0 opacity-100' : 'translate-x-10 opacity-0'}`}
+                    className={`w-full max-w-[1000px] mx-auto bg-transparent font-kodemono border border-white p-4 rounded-lg transition-all duration-1000 ${scrollRight ? 'translate-x-0 opacity-100' : 'translate-x-10 opacity-0'}`}
                 >
                     <div className="flex flex-col sm:flex-row justify-between text-center sm:text-left">
                         <h1 className="text-2xl font-kodemono text-white">Freelance Full Stack Software Engineer</h1>
                         <h1 className="text-2xl font-kodemono text-black sm:text-right pb-5 font-semibold">Fiverr</h1>
                     </div>
-                    <ul className="custom-list list-inside space-y-2 text-white">
+                    <ul className="custom-list list-inside space-y-2 text-white font-kodemono">
                         <li className="bg-bgGradient1 border rounded-lg p-3">
                             Worked with international clients via Fiverr to deliver tailored software solutions, ensuring seamless integration and optimal functionality.
                         </li>
