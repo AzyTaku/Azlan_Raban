@@ -20,7 +20,7 @@ const Landing = () => {
                 </h1>
 
                 {/* Icons for small screens */}
-                <div className="flex flex-row justify-center space-x-4 mt-6 md:hidden block">
+                <div className="flex flex-row justify-center space-x-4 mt-6 md:hidden">
                     <div
                         className="h-16 w-16 bg-bgGradient2 text-bgGradient1 flex justify-center hover:cursor-pointer items-center rounded transform transition-transform duration-200 hover:scale-110"
                         onClick={() => window.location.href = "https://github.com/AzyTaku"}
