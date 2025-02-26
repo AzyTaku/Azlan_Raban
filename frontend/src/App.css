@@ -7,8 +7,12 @@
 
 
 :root {
+    --bgGradient1: #282178;
+    --bgGradient2: #060512; 
     scroll-behavior: smooth;
-  }
+    background: linear-gradient(to top, var(--bgGradient1), var(--bgGradient2));
+}
+
 
 
 ul.custom-list li {

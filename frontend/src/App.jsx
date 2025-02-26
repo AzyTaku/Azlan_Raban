@@ -31,8 +31,9 @@ function App() {
   }, []);
 
   return (
-    <div className="bg-gradient-to-t from-bgGradient1 to-bgGradient2 w-full h-full overflow-hidden">
-      <Sidebar activeSection={activeSection} /> Pass activeSection to Sidebar
+    <div className="w-full h-full overflow-hidden xl:max-w-[1280px]">
+      <Sidebar activeSection={activeSection} />
+      {/* Pass activeSection to Sidebar */}
 
       {/* Main Content */}
       <div className="ml-1/5 pl-4 lg:pl-80">

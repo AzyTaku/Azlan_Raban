@@ -46,13 +46,13 @@ const Contact = () => {
                         </div>
                         <a href="mailto:azlanshaveenraban@gmail.com"
                             className="mt-4 flex justify-center bg-gray-900 text-white p-4 rounded-md shadow-lg hover:bg-gray-700 transition duration-200">
-                            <p className="text-center font-semibold">Or Email me at azlanshaveenraban@gmail.com</p>
+                            <p className="text-center font-semibold">Or Email me at azlanshaveenraban1@gmail.com</p>
                         </a>
                     </div>
                 </div>
 
                 {/* Icons (small screens) */}
-                <div className="flex flex-row justify-center space-x-4 mt-6 md:hidden block">
+                <div className="flex flex-row justify-center space-x-4 mt-6 md:hidden">
                     <div className="h-16 w-16 bg-bgGradient2 text-bgGradient1 flex justify-center hover:cursor-pointer items-center rounded transform transition-transform duration-200 hover:scale-110"
                         onClick={() => window.location.href = "https://github.com/AzyTaku"}
                     >
